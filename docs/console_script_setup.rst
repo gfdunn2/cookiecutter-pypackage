@@ -52,3 +52,6 @@ More Details
 
 You can read more about Click at:
 http://click.pocoo.org/
+
+You can read more about Docopt at:
+http://docopt.org/

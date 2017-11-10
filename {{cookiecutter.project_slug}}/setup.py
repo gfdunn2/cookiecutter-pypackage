@@ -14,6 +14,8 @@ with open('HISTORY.rst') as history_file:
 requirements = [
     {%- if cookiecutter.command_line_interface|lower == 'click' %}
     'Click>=6.0',
+    {%- elif cookiecutter.command_line_interface|lower == 'docopt' %}
+    'Docopt>=0.6.0',
     {%- endif %}
     # TODO: put package requirements here
 ]
